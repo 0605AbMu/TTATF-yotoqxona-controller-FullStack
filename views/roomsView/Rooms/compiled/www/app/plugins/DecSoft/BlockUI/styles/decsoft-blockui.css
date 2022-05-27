@@ -1,0 +1,19 @@
+
+#decsoft-blockui-overlay
+{
+  top: 0;
+  opacity: .9;
+  cursor: wait;
+  z-index: 99999;
+  position: absolute;	
+  background-color: #555;
+}
+
+#decsoft-blockui-container
+{ 
+  opacity: 1;
+  z-index: 999999;  
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 10px 10px 15px 10px;
+}

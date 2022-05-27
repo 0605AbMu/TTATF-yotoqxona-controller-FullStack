@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Admin Panel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src * app: file: data: mediastream: blob: filesystem: cdvfile: ws: ms-appdata: ms-appx-web: gap: 'unsafe-inline' 'unsafe-eval';" />
+    <meta name="description" content="TTATF Yotoqxona - Admin Panel" />
+    <meta name="author" content="Abdumannon Shamsiyev - 0605AbMu@gmail.com - https://t.me/Abdumannon_Shamsiyev" />
+
+    <link rel="apple-touch-icon" href="/admin/icon.png" />
+    <link rel="icon" type="image/png" href="/admin/icon.png" />
+    <link rel="shortcut icon" href="/admin/icon.png" type="image/x-icon" />
+
+    <link rel='stylesheet' type='text/css' media='screen' href='/admin/styles/main.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/admin/styles/screen.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="tabs" id="tabs">
+        
+        </div>
+
+
+        <div class="yotoqxona-container">
+
+            <div class="yotoqxona">
+
+                <div class="right" id="right"> </div>
+                <div class="middle"></div>
+                <div class="left" id="left"></div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="shower" id="shower">
+
+
+        <div class="stat">
+
+            <div id="generalData"></div>
+            <div id="floorData"></div>
+            <div id="roomData"></div>
+
+
+
+        </div>
+        <div class="student">
+
+
+            <!-- Boshqaruv Elementlari -->
+
+            <div class="controls">
+                <button id="updateButton">
+                    <span class="material-icons" onclick="updateRoom()">
+                        update
+                    </span>
+                </button>
+                <button>
+                    <span class="material-icons" onclick="deleteRoomMember()">
+                        delete
+                    </span>
+                </button>
+                <button>
+                    <span class="material-icons" onclick="forwardButtonEvent()">
+                        text_rotation_angleup
+                    </span>
+                </button>
+
+                <button>
+
+                    <span class="material-icons" onclick="window.location = (window.location.origin+'/admin/rooms')">
+                        folder_shared link
+                    </span>
+                </button>
+
+            </div>
+            <!-- ################# -->
+
+            <!-- Qidirish elementi -->
+            <div class="srch">
+                <input type="search" id="Pasport" placeholder="Qidiring: -> AA1983990">
+                <button onclick="search()"> <span class="material-icons">
+                        🔍
+                    </span></button>
+            </div>
+            <!-- ################ -->
+
+            <!-- Ma'lumotlar paneli -->
+
+            <div class="data">
+                <div id="studentData">
+
+                </div>
+
+            </div>
+
+            <!--########################-->
+
+
+        </div>
+
+
+        <div class="history">
+            🗒Tarix
+            <textarea wrap="soft" name="" id="history" spellcheck="false"></textarea>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+<script src='/admin/scripts/main.js' defer></script>
+<script src='/admin/scripts/snd.js' defer></script>
+<script src='/admin/scripts/axios.min.js' defer></script>
+
+</html>

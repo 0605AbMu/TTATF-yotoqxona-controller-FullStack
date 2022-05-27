@@ -1,0 +1,102 @@
+﻿
+/*!
+This file is part of DecSoft App Builder.
+Visit our website for license information.
+Copyright ©2022 DecSoft. All rights reserved.
+Visit our website at: https://www.decsoftutils.com/
+
+*/
+
+
+html, body { width: 1024px; height: 800px; }
+
+#view1 #table1 { position: absolute; top: 18.00%; left: 0.78%; width: 98.44%; height: 80.00%; }
+
+#view1 #button1 { position: absolute; top: 1.00%; left: 88.28%; width: 10.94%; height: 4.00%; }
+
+#view1 #button2 { position: absolute; top: 1.00%; left: 75.78%; width: 10.94%; height: 4.00%; }
+
+#view1 #button3 { position: absolute; top: 1.00%; left: 0.78%; width: 10.94%; height: 4.00%; }
+
+#view1 #label1 { position: absolute; top: 6.00%; left: 0.78%; width: 4.69%; height: 2.50%; }
+#view1 #label1 {text-align: center;}
+
+#view1 #switch1 { position: absolute; top: 6.00%; left: 6.25%; width: 7.03%; height: 2.00%; }
+
+#view1 #container2 { position: absolute; top: 9.00%; left: 0.78%; width: 98.44%; height: 9.00%; }
+
+#view1 #typeahead3 { position: absolute; top: 33.33%; left: 0.00%; width: 16.57%; height: 44.44%; }
+
+#view1 #select1 { position: absolute; top: 33.33%; left: 17.36%; width: 15.58%; height: 44.44%; }
+
+#view1 #input2 { position: absolute; top: 33.33%; left: 33.73%; width: 15.58%; height: 44.44%; }
+
+#view1 #select2 { position: absolute; top: 33.33%; left: 50.10%; width: 15.08%; height: 44.44%; }
+
+#view1 #select3 { position: absolute; top: 33.33%; left: 65.67%; width: 15.08%; height: 44.44%; }
+
+#view1 #input3 { position: absolute; top: 33.33%; left: 80.95%; width: 15.58%; height: 44.44%; }
+
+#view1 #label2 { position: absolute; top: 4.17%; left: 0.69%; width: 17.46%; height: 27.78%; }
+#view1 #label2 {text-align: center;}
+
+#view1 #label5 { position: absolute; top: 4.17%; left: 16.37%; width: 17.46%; height: 27.78%; }
+#view1 #label5 {text-align: center;}
+
+#view1 #label6 { position: absolute; top: 4.17%; left: 32.44%; width: 17.46%; height: 27.78%; }
+#view1 #label6 {text-align: center;}
+
+#view1 #label7 { position: absolute; top: 4.17%; left: 48.02%; width: 17.46%; height: 27.78%; }
+#view1 #label7 {text-align: center;}
+
+#view1 #label8 { position: absolute; top: 4.17%; left: 63.79%; width: 17.46%; height: 27.78%; }
+#view1 #label8 {text-align: center;}
+
+#view1 #label9 { position: absolute; top: 4.17%; left: 79.37%; width: 17.46%; height: 27.78%; }
+#view1 #label9 {text-align: center;}
+
+#view1 #button4 { position: absolute; top: 27.78%; left: 96.83%; width: 2.78%; height: 55.56%; }
+
+#dialog1 .modal-content { text-align: right; background-color: transparent; border: none; }
+#dialog1 #container1 { position: absolute; top: 15.00%; left: 10.94%; width: 75.78%; height: 52.00%; }
+#dialog1 #container1 {background-color: #fff; border-radius: 10px; box-shadow: 0 0 5px #000;}
+
+#dialog1 #label1 { position: absolute; top: 19.23%; left: 7.22%; width: 25.77%; height: 7.69%; }
+#dialog1 #label1 {font-weight: bold; text-align: right;}
+
+#dialog1 #label3 { position: absolute; top: 32.69%; left: 7.22%; width: 25.77%; height: 7.69%; }
+#dialog1 #label3 {font-weight: bold; text-align: right;}
+
+#dialog1 #input1 { position: absolute; top: 32.69%; left: 38.14%; width: 50.52%; height: 7.69%; }
+
+#dialog1 #label4 { position: absolute; top: 46.15%; left: 7.22%; width: 25.77%; height: 7.69%; }
+#dialog1 #label4 {font-weight: bold; text-align: right;}
+
+#dialog1 #select4 { position: absolute; top: 46.15%; left: 38.14%; width: 50.52%; height: 7.69%; }
+
+#dialog1 #select5 { position: absolute; top: 59.62%; left: 38.14%; width: 50.52%; height: 7.69%; }
+
+#dialog1 #label5 { position: absolute; top: 59.62%; left: 7.22%; width: 25.77%; height: 7.69%; }
+#dialog1 #label5 {font-weight: bold; text-align: right;}
+
+#dialog1 #input3 { position: absolute; top: 73.08%; left: 38.14%; width: 50.52%; height: 7.69%; }
+
+#dialog1 #label6 { position: absolute; top: 73.08%; left: 7.22%; width: 25.77%; height: 7.69%; }
+#dialog1 #label6 {font-weight: bold; text-align: right;}
+
+#dialog1 #select6 { position: absolute; top: 19.23%; left: 38.14%; width: 50.52%; height: 7.69%; }
+
+#dialog1 #button3 { position: absolute; top: 90.38%; left: 62.89%; width: 18.04%; height: 7.69%; }
+
+#dialog1 #button4 { position: absolute; top: 90.38%; left: 81.44%; width: 18.04%; height: 7.69%; }
+
+#dialog1 #button1 { position: absolute; top: 90.38%; left: 19.59%; width: 18.04%; height: 7.69%; }
+#dialog1 #button2 { position: absolute; top: 90.38%; left: 38.14%; width: 18.04%; height: 7.69%; }
+
+#dialog1 #label2 { position: absolute; top: 5.77%; left: 3.09%; width: 29.90%; height: 7.69%; }
+#dialog1 #label2 {text-align: right;}
+
+#dialog1 #label7 { position: absolute; top: 5.77%; left: 38.14%; width: 50.52%; height: 7.69%; }
+#dialog1 #label7 {text-align: left;}
+
+#dialog1 #button5 { position: absolute; top: 15.25%; left: 81.45%; width: 4.69%; height: 3.75%; }

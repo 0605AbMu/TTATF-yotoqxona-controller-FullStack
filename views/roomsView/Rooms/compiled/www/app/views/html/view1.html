@@ -1,0 +1,56 @@
+﻿<transition v-bind:[app.viewTransitionName]="transitionName" v-bind:[app.viewTransitionMode]="transitionMode" v-bind:[app.viewInAnimation]="'animate__animated ' + 'animate__' + inAnimation" v-bind:[app.viewOutAnimation]="'animate__animated ' + 'animate__' +  outAnimation"><div id="view1" v-bind:class="['app-view', classes]"><dab-sidebar v-bind="app.sidebar"></dab-sidebar><dab-table v-bind="table1"><template v-slot:header><tr>
+<th>
+ID
+</th>
+
+<th>
+TURI
+</th>
+
+<th>
+TARTIB RAQAMI
+</th>
+
+<th>
+QAVATI
+</th>
+
+<th>
+TARAFI
+</th>
+
+
+<th>
+SIG'IMI
+</th>
+
+<th>
+HOZIRDA MAVJUD
+</th></tr></template><template v-slot:records><tr v-for="(record, index) in table1.data" v-on:click="table1.rowClickHandler($event, record, index)" v-on:dblclick="table1.rowDblClickHandler($event, record, index)" v-bind:data-index="index" v-bind:id="'table1Row' + index" v-bind:class="['table1Row', 'table1Row' + index]"><td>
+{{record["_id"]}}
+</td>
+
+<td>
+{{record.type}}
+</td>
+
+<td>
+{{record.order}}
+</td>
+
+<td>
+{{record.qavat}}
+</td>
+
+<td>
+{{record.side}}
+</td>
+
+<td>
+{{record.capacity}}
+</td>
+
+<td>
+{{record.busy}}
+</td>
+</tr></template></dab-table><dab-push-button v-bind="button1"></dab-push-button><dab-push-button v-bind="button2"></dab-push-button><dab-push-button v-bind="button3"></dab-push-button><dab-http v-bind="http1"></dab-http><dab-label v-bind="label1"></dab-label><dab-switch-input v-model="switch1.value" v-bind="switch1"></dab-switch-input><dab-container v-bind="container2"><decsoft-typeahead v-bind="typeahead3"></decsoft-typeahead><dab-select-input v-model="select1.value" v-bind="select1"></dab-select-input><dab-number-input v-model="input2.value" v-bind="input2"></dab-number-input><dab-select-input v-model="select2.value" v-bind="select2"></dab-select-input><dab-select-input v-model="select3.value" v-bind="select3"></dab-select-input><dab-number-input v-model="input3.value" v-bind="input3"></dab-number-input><dab-label v-bind="label2"></dab-label><dab-label v-bind="label5"></dab-label><dab-label v-bind="label6"></dab-label><dab-label v-bind="label7"></dab-label><dab-label v-bind="label8"></dab-label><dab-label v-bind="label9"></dab-label><dab-push-button v-bind="button4"></dab-push-button></dab-container></div></transition>

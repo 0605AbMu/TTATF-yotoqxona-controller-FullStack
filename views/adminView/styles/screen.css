@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    .yotoqxona{
+        flex-direction: row;
+        background-color: red; 
+        height: 100%;;       
+        width: 100%;
+        ;
+    }
+   
+    .right, .left, .middle{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        align-items: flex-start;
+        
+    }
+    .middle{
+        width: 50px;
+        background-color: aqua;
+
+    }
+    .xona-container{
+        height: 120px;
+    }
+  }
